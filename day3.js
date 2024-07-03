@@ -58,6 +58,7 @@
 //     console.log("Hello world")
 // } */
 
+
 // const numbers=[1,2,3,4,5]
 // function n(numbers){
 //     for(let num of numbers){
@@ -65,7 +66,9 @@
 //     }
 // }
 //  n(numbers)
-const data={
+
+
+/*const data={
     status: 200,
     message: "Code found",
     code: [
@@ -85,4 +88,40 @@ function name(data){
     console.log(data.code[0].userId)
     console.log(data.code[0].title)
 }
-name(data)
+name(data) */
+
+ //const isRaining = true // yo chai mathi nai hunuparxa 
+
+ /*if(isRaining){
+    console.log("Carry umberalla")
+}
+else{
+console.log("Dont carry unberalla")
+} */
+
+// ternary operator
+/* const result = isRaining ? "Carry Umbrella" : "Dont carry umbrella"
+console.log(result) */
+
+//short circuit
+/* isRaining && console.log("Carry Umbrella")
+isRaining != console.log("Dont carry umberalla") */
+
+/* const age = 21 
+ if(age > 18){
+    console.log("you can cast vote")
+ }
+ else{
+         console.log("you cannot cast vote")
+} */
+
+const age=20
+if(age === 21){
+        console.log("Age equals 21")
+ }
+ else{
+         console.log("Age doesn't equals 21")
+ } 
+
+
+
