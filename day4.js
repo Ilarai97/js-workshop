@@ -126,6 +126,8 @@ console.log(result) */
 
 //spread operator vaneko ... ho 
 
+//filter operator 
+
 /* const numberData = [1,2,3,4,5,6,7,8,9,10]
 const oddNumbers = numberData.filter ((number)=> {
     return number%2 !== 0
@@ -170,16 +172,64 @@ const book = books.filter((object)=> {
 })
 console.log(book) */
 
-const lastTask = [1,2,null, undefined ,"Ila","haihai","hoihoi"]
+/* const lastTask = [1,2,null, undefined ,"Ila","haihai","hoihoi"]
 const result = lastTask.filter ((task)=>{
     return task !== null && task !== undefined
 })
-console.log(result)
+console.log(result) */
+
+/* const data = [
+    {
+        name : "Manish",
+        marks : 800,
+        status : "pass"
+    },
+    {
+        name : "Anish",
+        marks : 500,
+        status : "fail"
+    },
+    {
+        name : "Pranjal",
+        marks : 900,
+        status : "pass"
+    },
+    {
+        name : "Bob",
+        marks : 100,
+        status : "fail"
+    },
+    {
+        name : "Hari",
+        marks : 550,
+        status : "fail"
+    },
+    {
+        name : "Shyam",
+        marks : 600,
+        status : "pass"
+    },
+    {
+        name : "Laxman",
+        marks : 300,
+        status : "fail"
+    }
+]
+const result = data.filter((Obj)=> { 
+    return Obj.name.endsWith("sh") && Obj.status=="pass" &&  Obj.marks>500
+})
+console.log(result) */
 
 
 
 
 
+
+const file =['index.html', 'app.js', 'app.java', 'test.js']
+const lang = file.filter((Object)=>{
+    return Object.endsWith(".js")
+})
+console.log(lang)
 
 
 
