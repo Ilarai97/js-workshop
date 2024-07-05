@@ -220,11 +220,6 @@ const result = data.filter((Obj)=> {
 })
 console.log(result) */
 
-
-
-
-
-
 const file =['index.html', 'app.js', 'app.java', 'test.js']
 const lang = file.filter((Object)=>{
     return Object.endsWith(".js")
